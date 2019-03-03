@@ -1,0 +1,8 @@
+Pullonpalautusautomaattia mallintava luokka.
+Tommi Tuominen 2014
+
+Ensin tunnistetaan käyttäjän syöttämä pullo/tölkki.
+Tunnistus tapahtuu lukijan lukemalla ID:llä.
+
+CheckBottle bottle = new CheckBottle();
+bottle.type(scannedid);
